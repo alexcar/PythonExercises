@@ -136,23 +136,23 @@ print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 
 # Passing an arbitrary number of arguments
-def make_pizza(*toppings):
-    print("\nMaking a pizza with the following toppings:")
-    for topping in toppings:
-        print(f"- {topping}")
+# def make_pizza(*toppings):
+#     print("\nMaking a pizza with the following toppings:")
+#     for topping in toppings:
+#         print(f"- {topping}")
 
-make_pizza('pepperoni')
-make_pizza('mushrooms', 'green peppers', 'extra cheese')
+# make_pizza('pepperoni')
+# make_pizza('mushrooms', 'green peppers', 'extra cheese')
 
 # Mixing positional and arbitrary arguments
-def make_pizza(size, *toppings):
-    """Summarize the pizza we are about to make"""
-    print(f"\nMaking a {size}-inch pizza with the following toppings:")
-    for topping in toppings:
-        print(f"- {topping}")
+# def make_pizza(size, *toppings):
+#     """Summarize the pizza we are about to make"""
+#     print(f"\nMaking a {size}-inch pizza with the following toppings:")
+#     for topping in toppings:
+#         print(f"- {topping}")
 
-make_pizza(16, 'pepperoni')
-make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+# make_pizza(16, 'pepperoni')
+# make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
 # Using arbitrary keyword arguments
 def build_profile(first, last, **user_info):
